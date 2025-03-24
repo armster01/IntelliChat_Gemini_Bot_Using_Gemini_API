@@ -7,7 +7,7 @@ load_dotenv()
 # Configuration class
 class Config:
     GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
-    MODEL_NAME = "gemini-pro"
+    MODEL_NAME = "gemini-2.0-flash"
     IMAGE_MODEL_NAME = "gemini-pro-vision"
     
     # Streamlit configs
